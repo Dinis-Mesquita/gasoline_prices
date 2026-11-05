@@ -108,7 +108,7 @@ def send_msg(text_final,distrito,concelho):
         headers = {
             "Content-Type": "text/plain; charset=utf-8",
             #"Title": "Teste",
-            "Priority": "default",
+            "Priority": "low",
             #"Tags": "warning"
         }
         blocos = text_final.split("\n\n")
