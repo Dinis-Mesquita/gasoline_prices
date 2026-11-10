@@ -6,7 +6,7 @@ name: Price Updates
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   schedule:
-  - cron: "0 1 * * 2,3,4,5"
+  - cron: "30 1 * * 2,3,4,5"
     
 
   # Allows you to run this workflow manually from the Actions tab
