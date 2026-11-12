@@ -41,24 +41,24 @@ def produce_msg():
             #send_msg(text_final,distrito,concelho)
 
 
-            text_final = f"\n{precos_concelho}\n"
+            text_final = f"\n🚗{precos_concelho}\n"
             send_msg(text_final,distrito,concelho)
             time.sleep(random.randrange(5, 10))
 
-            text_final = f"\n{average_price_specific_concelho}\n"
+            text_final = f"\n🔵{average_price_specific_concelho}\n"
             #time.sleep(15)
             send_msg(text_final,distrito,concelho)
             time.sleep(random.randrange(5, 10))
             print("Finished concelhos page")
 
-            text_final = f"\n{average_price_specific_distrito}\n"
+            text_final = f"\n⚪{average_price_specific_distrito}\n"
             #time.sleep(15)
             send_msg(text_final,distrito,concelho)
 
             time.sleep(random.randrange(5,10))
             print("Finished distritos page")
 
-            text_final = f"\n{average_prices}\n\n"
+            text_final = f"\n⚠️{average_prices}\n\n"
             #time.sleep(15)
             send_msg(text_final,distrito,concelho)
             print("Finished main page")
@@ -79,7 +79,7 @@ def daily_update():
 
 
 
-            text_final = f"\n{precos_concelho}\n"
+            text_final = f"\n🚗{precos_concelho}\n"
             send_msg(text_final,distrito,concelho)
             time.sleep(random.randrange(5, 10))
 
